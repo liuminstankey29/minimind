@@ -43,4 +43,4 @@
 
 > Note: This project is open-sourced under the Apache 2.0 license and is completely free. "2 hours" refers to the measured time to run `1 epoch` of the SFT stage on a single NVIDIA 3090, and "3 CNY" refers to the corresponding GPU rental cost for that duration.
 
-> **Personal note:** I forked this repo primarily to study the GRPO and DPO training pipelines. My main focus is understanding how the reward model interacts with the policy during GRPO, and comparing it against DPO in terms of training stability. I'm running experiments on a single RTX 4090 — results and notes will be added to `./personal_notes/` as I go.
+> **Personal note:** I forked this repo primarily to study the GRPO and DPO training stages in depth. My focus is on understanding the reward modeling and policy optimization steps. I'm running experiments on a single RTX 4090 and will document my findings in the `notes/` directory as I go.
